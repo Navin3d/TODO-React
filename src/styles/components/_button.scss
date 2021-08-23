@@ -1,0 +1,41 @@
+.big-button {
+    background-color: $purple;
+    border: none;
+    border-bottom: .6rem solid darken($purple, $amount: 10%);
+    color: #fff;
+    font-weight: bold;
+    font-size: $l-size;
+    margin-bottom: $xl-size;
+    padding: 2.6rem;
+    width: 100%;
+}
+
+.button {
+    background-color: $purple;
+    border: none;
+    border-bottom: .3rem solid darken($color: $purple, $amount: 10%);
+    color: #fff;
+    font-weight: 500;
+    font-size: $m-size;
+    padding: 1rem;
+    cursor: grabbing;
+    border-radius: 3cm;
+}
+
+.button--add:hover {
+    background-color: darken($purple, 10%);
+    border: none;
+    border-bottom: .3rem solid darken($color: $purple, $amount: 10%);
+    color: #fff;
+    font-weight: 500;
+    font-size: $m-size;
+    padding: 1rem;
+    cursor: grabbing;
+    border-radius: 3cm;
+}
+.button--link {
+    background: none;
+    border: none;
+    color: $off-white;
+    padding: 0;
+}

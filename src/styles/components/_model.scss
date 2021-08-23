@@ -1,0 +1,9 @@
+.ReactModalPotral > div {
+    opacity: 0;
+}
+.ReactModalPotral .ReactModel__Overlay {
+    transition: opacity 200ms ease-in-out;
+}
+.ReactModalPotral .ReactModel__Overlay--after-open {
+    opacity: 1;
+}
